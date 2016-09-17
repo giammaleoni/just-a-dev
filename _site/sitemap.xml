@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>http://localhost:3000/my-first-post/</loc>
+		<loc>https://giammaleoni.github.io/just-a-dev/my-first-post/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:3000/welcome-to-jekyll/</loc>
+		<loc>https://giammaleoni.github.io/just-a-dev/welcome-to-jekyll/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:3000/how-to-use/</loc>
+		<loc>https://giammaleoni.github.io/just-a-dev/how-to-use/</loc>
 	  </url>
 	
 </urlset>

@@ -2,8 +2,8 @@
 title: Just a dev
 description: Tutorial, news & more on Angular, Ionic, IoT, api, OpenData
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "https://giammaleoni.github.io/just-a-blog" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-url: "http://localhost:3000"
+url: "https://giammaleoni.github.io/just-a-dev" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+#url: "http://localhost:3000"
 
 # User settings
 username: Gianmaria Leoni
