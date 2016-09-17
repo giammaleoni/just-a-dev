@@ -1,0 +1,52 @@
+# Site settings
+title: Just a dev
+description: Tutorial, news & more on Angular, Ionic, IoT, api, OpenData
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://giammaleoni.github.io/just-a-blog" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "http://localhost:3000"
+
+# User settings
+username: Gianmaria Leoni
+user_description:
+user_title: Developer
+email: gianmaria.leoni@gmail.com
+twitter_username: giammaleoni
+github_username:  giammaleoni
+gplus_username:  +GianmariaLeoni
+disqus_username: giammaleoni
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: News
+    url: /news
+  - title: Tutorials
+    url: /tutorials
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+
+# extra configuration
+timezone: Europe/Rome
+# future: true
