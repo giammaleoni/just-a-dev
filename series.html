@@ -6,6 +6,9 @@ image: '/assets/img/series.png'
 description: "Take a look at my series about lorem ipsum..."
 ---
 
+{% assign months = "Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+
 {% for tag in site.categories %}
   <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] | capitalize }}</span>
   <ul class="post-list">
@@ -13,7 +16,19 @@ description: "Take a look at my series about lorem ipsum..."
     {% for post in pages_list reversed %}
       {% if post.title != null %}
       {% if group == null or group == post.group %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+          <span class="entry-date">
+            <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+              <!-- {{ post.date | date: "%B %d, %Y" }} -->
+              {{ post.date | date: "%d" }}
+              {% assign m = page.date | date: "%-m" | minus: 1 %}
+              {{ months[m] }}
+              {{ post.date | date: "%Y" }}
+            </time>
+          </span>
+        </a>
+      </li>
       {% endif %}
       {% endif %}
     {% endfor %}
