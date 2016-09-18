@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Just a dev</title>
-    <description>Tutorial, news &amp; more on Angular, Ionic, IoT, api, OpenData</description>
+    <description>Tutorial, news &amp; altro su HTML5, Angular, Ionic, IoT, api</description>
     <link>https://giammaleoni.github.io/just-a-dev/</link>
     <atom:link href="https://giammaleoni.github.io/just-a-dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Sep 2016 11:55:34 +0200</pubDate>
-    <lastBuildDate>Sun, 18 Sep 2016 11:55:34 +0200</lastBuildDate>
+    <pubDate>Sun, 18 Sep 2016 12:16:14 +0200</pubDate>
+    <lastBuildDate>Sun, 18 Sep 2016 12:16:14 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
