@@ -33,10 +33,6 @@ compress_html:
 links:
   - title: Home
     url: /
-  - title: News
-    url: /news
-  - title: Tutorials
-    url: /tutorials
   - title: Series
     url: /series
   - title: Tags
