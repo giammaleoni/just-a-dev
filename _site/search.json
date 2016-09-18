@@ -3,25 +3,9 @@
     {
       "title"    : "Just a dev",
       "category" : "blog",
-      "tags"     : "blog",
+      "tags"     : "blog and uncategorized",
       "url"      : "/just-a-dev/just-a-dev/",
       "date"     : "18 Sep 2016"
-    } ,
-  
-    {
-      "title"    : "Welcome to Jekyll",
-      "category" : "Jekyll is awesome",
-      "tags"     : "jekyll and web",
-      "url"      : "/just-a-dev/welcome-to-jekyll/",
-      "date"     : "04 Aug 2015"
-    } ,
-  
-    {
-      "title"    : "How to use",
-      "category" : "I love Jekyll",
-      "tags"     : "jekyll and template",
-      "url"      : "/just-a-dev/how-to-use/",
-      "date"     : "03 Aug 2015"
     } 
   
 ]
