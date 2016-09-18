@@ -14,22 +14,6 @@
       "tags"     : "angular and angular2",
       "url"      : "/just-a-dev/basi-di-angular-2/",
       "date"     : "18 Sep 2016"
-    } ,
-  
-    {
-      "title"    : "Welcome to Jekyll",
-      "category" : "Jekyll is awesome",
-      "tags"     : "jekyll and web",
-      "url"      : "/just-a-dev/welcome-to-jekyll/",
-      "date"     : "04 Aug 2015"
-    } ,
-  
-    {
-      "title"    : "How to use",
-      "category" : "I love Jekyll",
-      "tags"     : "jekyll and template",
-      "url"      : "/just-a-dev/how-to-use/",
-      "date"     : "03 Aug 2015"
     } 
   
 ]

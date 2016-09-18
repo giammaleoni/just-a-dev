@@ -10,7 +10,7 @@ tags:
 categories:
 - Jekyll is awesome
 twitter_text: 'Put your twitter description here.'
-#published: false
+published: false
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

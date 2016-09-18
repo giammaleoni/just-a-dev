@@ -10,6 +10,13 @@ tags:
 categories:
 - Angular 2
 twitter_text: "Ma cos'è Angular? Devo imparare ad usare la versione 2? da @giammaleoni"
+published = false
 ---
 
-[](https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/463440424141459456)
+La versione finale di Angular 2 è stata rilasciata da pochi giorni, ma alcuni si chiederanno **cos'è Angular?**
+
+> Angular is a development platform for building mobile and desktop web applications. This is the repository for Angular 2 Typescript/JavaScript (JS). ([fonte: github.com/angular/angular](https://github.com/angular/angular))
+
+Quindi è possibile utilizzare questo framwork per costruire facilmente applicazioni web lato client focalizzandosi su contenuti e funzionalità sfruttando api che fanno gran parte del lavoro.
+
+Angular è sviluppato dal team di Google
