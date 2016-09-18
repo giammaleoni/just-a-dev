@@ -12,4 +12,4 @@ categories:
 twitter_text: "Ma cos'è Angular? Devo imparare ad usare la versione 2? da @giammaleoni"
 ---
 
-https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/463440424141459456
+[](https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/463440424141459456)
