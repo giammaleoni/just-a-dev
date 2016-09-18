@@ -9,6 +9,14 @@
     } ,
   
     {
+      "title"    : "Basi di Angular 2",
+      "category" : "Angular 2",
+      "tags"     : "angular and angular2",
+      "url"      : "/just-a-dev/basi-di-angular-2/",
+      "date"     : "18 Sep 2016"
+    } ,
+  
+    {
       "title"    : "Welcome to Jekyll",
       "category" : "Jekyll is awesome",
       "tags"     : "jekyll and web",
