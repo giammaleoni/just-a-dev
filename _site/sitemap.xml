@@ -2,15 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>https://giammaleoni.github.io/just-a-dev/my-first-post/</loc>
-	  </url>
-	
-	  <url>
-		<loc>https://giammaleoni.github.io/just-a-dev/welcome-to-jekyll/</loc>
-	  </url>
-	
-	  <url>
-		<loc>https://giammaleoni.github.io/just-a-dev/how-to-use/</loc>
+		<loc>https://giammaleoni.github.io/just-a-dev/just-a-dev/</loc>
 	  </url>
 	
 </urlset>
