@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign months = "Enero|Febrero|Marzo|Abril|Mayo|Junio|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
 
 <main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     {% for post in site.posts %}
@@ -12,7 +14,10 @@ layout: default
                             {{ post.date | date: "%d" }}
                         </span>
                         <span class="month-year">
-                            {{ post.date | date: "%B %Y" }}
+                            {% assign m = page.date | date: "%-m" | minus: 1 %}
+                            {{ months[m] }}
+                            <!-- {{ post.date | date: "%B %Y" }} -->
+                            {{ post.date | date: "%Y" }}
                         </span>
                     </time>
                 </a>
