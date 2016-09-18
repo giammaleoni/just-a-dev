@@ -14,7 +14,7 @@ layout: default
                             {{ post.date | date: "%d" }}
                         </span>
                         <span class="month-year">
-                            {% assign m = page.date | date: "%-m" | minus: 1 %}
+                            {% assign m = post.date | date: "%-m" | minus: 1 %}
                             {{ months[m] }}
                             <!-- {{ post.date | date: "%B %Y" }} -->
                             {{ post.date | date: "%Y" }}
